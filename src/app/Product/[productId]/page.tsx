@@ -14,7 +14,7 @@ export default async function ProductDetailPage(props: any) {
         const stars = [];
         for (let i = 0; i < 5; i++) {
             if (i < rate) {
-                stars.push(<span key={i} className={style.starFilled}>★</span>);
+                stars.push(<span key={i} className={style.starFilled}>★★</span>);
             } else {
                 stars.push(<span key={i} className={style.starEmpty}>☆</span>);
             }
